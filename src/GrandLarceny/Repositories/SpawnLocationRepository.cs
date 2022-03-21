@@ -125,7 +125,7 @@ namespace GrandLarceny.Repositories
             new PlayerSpawn(new Vector3(-2930.0049f, 487.2518f, 4.9141f), 3.8258f) // harbor
         };
 
-        private readonly Random _random = new();
+        private readonly Random _random = new Random();
 
         /// <inheritdoc />
         public PlayerSpawn GetRandomSpawnLocation(City city)
